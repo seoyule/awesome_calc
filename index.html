@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>어썸 계산기</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div>어썸피플 회비계산기</div>
+        <p>총 금액:
+            <input type="text" id="t_value"><br><span id="t_value_error"></span>
+        </p>
+
+        <p>남성 인원 (벙주 제외) :
+            <input type="text" id="num_m"><br><span id="num_m_error"></span>
+        </p>
+
+        <p>여성 인원 + 벙주:
+            <input type="text" id="num_w"><br><span id="num_w_error"></span>
+        </p>
+
+        <p>벙주 / 여성회원 할인율 (표준=40%):
+            <!--<input type="text" id="dc_rate"><br><span id="dc_rate_error"></span>-->
+              <select type="text" id="dc_rate">
+                <option value="0.4">-40%</option>
+                <option value="0.3">-30%</option>
+                <option value="0.2">-20%</option>
+                <option value="0.1">-10%</option>
+                <option value="0">0%(할인없음)</option>
+              </select>
+            <br><span id="dc_rate_error"></span>
+        </p>
+
+        <button id="btn">Calculate</button>
+        <button id="btn2">초기화</button>
+        <p id="output_m_fee"></p>
+        <p id="output_w_fee"></p>
+        <p id="output_acc"></p>
+
+    </div>
+</body>
+</html>
