@@ -52,7 +52,7 @@ button.addEventListener('click', () => {
 
         result1.innerHTML = '남성 회비    : ' + m_fee + '원/인당';
         result2.innerHTML = '여성+벙주 회비: ' + w_fee + '원/인당';
-        result3.innerHTML = '적립금      : ' + acc + '원 (4%), 우리은행 1002 959 801068 박미영';
+        result3.innerHTML = '적립금      : ' + acc + '원 (4%), <br>계좌번호: 우리은행 1002 959 801068 박미영';
 
 
     }else{
