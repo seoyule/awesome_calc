@@ -50,9 +50,9 @@ button.addEventListener('click', () => {
         const w_fee = Math.ceil(w_fee_r/100)*100;
         const acc = m_fee*num_m +w_fee*(num_w)-t_value;
 
-        result1.innerHTML = '남성 회비      : ' + m_fee + '원/인당';
-        result2.innerHTML = '여성 + 벙주 회비: ' + w_fee + '원/인당';
-        result3.innerHTML = '적립금        : ' + acc + '원 (4%), 우리은행 1002 959 801068 박미영';
+        result1.innerHTML = '남성 회비    : ' + m_fee + '원/인당';
+        result2.innerHTML = '여성+벙주 회비: ' + w_fee + '원/인당';
+        result3.innerHTML = '적립금      : ' + acc + '원 (4%), 우리은행 1002 959 801068 박미영';
 
 
     }else{
