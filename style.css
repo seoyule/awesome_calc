@@ -31,3 +31,8 @@ button{
     margin-top: 10%;
     cursor: pointer;
 }
+
+h5{
+    padding: 0px;
+    margin: 1px;
+}
